@@ -1,0 +1,50 @@
+.Button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  white-space: nowrap;
+  font-family: 'MoonFont', sans-serif;
+}
+
+.Button_default {
+  background-color: #ececec;
+  color: black;
+}
+.Button_positive {
+  background-color: #b787e3;
+  color: white;
+}
+.Button_negative {
+  background-color: #fd565f;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .DiaryItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .DiaryItem .button_section {
+    align-self: flex-end;
+    margin-top: 10px;
+    width: auto;
+    justify-content: space-between; 
+  }
+
+  .Button {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10 20px;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: 'MoonFont', sans-serif;
+  }
+}

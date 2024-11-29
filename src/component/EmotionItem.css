@@ -1,0 +1,123 @@
+.EmotionItem {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.EmotionItem img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.EmotionItem span {
+  font-size: 18px;
+}
+
+.EmotionItem_off {
+  background-color: #ececec;
+}
+
+.EmotionItem_on_1 {
+  background-color: #4a9c5f;
+  color: white;
+}
+
+.EmotionItem_on_2 {
+  background-color: #75b14b;
+  color: white;
+}
+
+.EmotionItem_on_3 {
+  background-color: #c1b320;
+  color: white;
+}
+
+.EmotionItem_on_4 {
+  background-color: #9e7f4f;
+  color: white;
+}
+
+.EmotionItem_on_5 {
+  background-color: #b1674b;
+  color: white;
+}
+
+.EmotionItem_on_6 {
+  background-color: #4ba58f;
+  color: white;
+}
+
+.EmotionItem_on_7 {
+  background-color: #519fb3;
+  color: white;
+}
+
+.EmotionItem_on_8 {
+  background-color: #4f79a3;
+  color: white;
+}
+
+.EmotionItem_on_9 {
+  background-color: #6e4a8a;
+  color: white;
+}
+
+.EmotionItem_on_10 {
+  background-color: #8b5fa8;
+  color: white;
+}
+
+.EmotionItem_on_11 {
+  background-color: #9a4040;
+  color: white;
+}
+
+.EmotionItem_on_12 {
+  background-color: #9a5d91;
+  color: white;
+}
+
+.EmotionItem_on_13 {
+  background-color: #9e6c74;
+  color: white;
+}
+
+.EmotionItem_on_14 {
+  background-color: #bc8e91;
+  color: white;
+}
+
+.EmotionItem_on_15 {
+  background-color: #b2b2b2;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .EmotionItem {
+    max-width: 250px; 
+    padding: 0px 20px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .EmotionItem img {
+    width: 150%;
+    max-width: 200px;
+    object-fit: contain;
+    margin-bottom: 0px;
+  }
+
+  .EmotionItem span {
+    font-size: 15px;
+    margin-top: 0;
+  }
+}

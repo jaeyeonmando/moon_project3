@@ -1,0 +1,50 @@
+.DiaryList {
+  padding: 0px;
+}
+
+.DiaryList .menu_wrapper {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DiaryList .left_col select {
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  font-family: 'MoonFont', sans-serif;
+  font-size: 22px;
+}
+
+.DiaryList .menu_wrapper .right_col {
+  flex-grow: 1;
+}
+
+.DiaryList .menu_wrapper .right_col button {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .DiaryList .menu_wrapper {
+    flex-direction: row; 
+    align-items: center;
+  }
+
+  .DiaryList .left_col select {
+    font-size: 18px;
+    width: auto; 
+    margin-right: 10px;
+  }
+
+  .DiaryList .menu_wrapper .right_col button {
+    padding: 12px 20px;
+    font-size: 18px;
+  }
+}
